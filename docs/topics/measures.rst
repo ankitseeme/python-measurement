@@ -72,7 +72,7 @@ Speed
    For example, to create an object representing 24 miles-per
    hour::
 
-      >>> from measurement.measure import Speed
+      >>> from measurement.measures import Speed
       >>> my_speed = Speed(mile__hour=24)
       >>> print my_speed
       24.0 mi/hr
